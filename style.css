@@ -38,13 +38,13 @@ body{
     outline: none;
     border: none;
     border-radius: 5px 0 0 5px;
-    padding: 5px;
+    padding: 5px 80px;
     box-shadow: 1px 1px 8px .7px #e9dfdf52;
 
     /* position: relative; */
 }
 #inpcity[type=text]{
-    font-size: 25px;
+    font-size: 18px;
     padding-left: ;
 }
 #submit{
@@ -106,4 +106,9 @@ body{
     #inpcity{
         width: 50%;
      }
+}
+@media (max-width:520px)}
+#inpcity{
+    padding:5px;
+}
 }
