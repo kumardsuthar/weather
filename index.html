@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Weather app</title>
+    <link rel="icon" type="image/x-icon" href="weather-app.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="container">
+    <div id="inp-div">
+     <input type="text" name="" id="inpcity" placeholder="Enter Your City Name">
+       <i class="fa fa-search" id="btn"></i>
+    </div>
+
+
+
+        <div id="main">
+             <!-- temperature section -->
+        <h2 style="text-align: center;">Weather for <span id="city">delhi</span></h2>
+        <!-- <h4 id="date" style="text-align: center;"></h4> -->
+          <img src="weather-app.png" alt="png" id="tem-img">
+        <div id="temp">
+            <h1 style="text-align: center;"><span id="temp_h"></span> C</h1>
+            
+              <div class="max-min-temp">
+                <p> <img src="high-temperature.png" alt=""> max temp <span id="max_t"></span> </p>
+              </div>
+              <div class="max-min-temp">
+               <p > <img src="low-temperature.png" alt=""> min temp   <span id="min_t"></span></p>
+
+              </div>
+        </div>
+        </div>
+
+        <!-- all other details -->
+        <div class="all-o-d">
+            <div class="all-d-list">
+                <img src="humidity.png" alt="">
+                <h5>humidity </h5>
+                <span id="humidity"></span>%
+            </div>
+            <div class="all-d-list">
+                <img src="wind.png" alt="">
+                <h5>wind degree </h5>
+                <span id="wind_deg"></span>
+            </div>
+         
+
+        </div>
+        <div class="all-o-d">
+            <div class="all-d-list">
+                <img src="snowflake.png" alt="">
+                <h5>feels_like </h5>
+                <span id="feels_like"></span>
+    
+                </div>
+                <div class="all-d-list">
+                   <img src="speed.png" alt="">
+                    <h5>Wind Speed </h5>
+                    <span id="wind_speed"></span>
+                    </div>
+        </div>
+      
+            
+     
+
+        </div>
+
+   
+
+
+
+     <script src="script.js"></script>
+
+
+     </script>
+</body>
+</html>
